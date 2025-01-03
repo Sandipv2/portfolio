@@ -1,0 +1,63 @@
+body {
+  background: #f3f9ff;
+}
+
+/***** Section Title *****/
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  bottom: -7px;
+  left: 25%;
+  z-index: -1;
+  height: 5px;
+  width: 50%;
+  background-color: #0d6efd;
+  border-radius: 5px;
+}
+
+/***** Navbar *****/ 
+nav {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.navbar-blur {
+  backdrop-filter: blur(10px);
+}
+
+.navbar-toggler {
+  filter: invert();
+}
+
+
+/***** Hero Section *****/ 
+.hero-container {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.profilePic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+
+/***** About Section *****/
+#about .icon svg {
+  color: #0d6efd;
+  background-color: #dbe8f9;
+  padding: 10px;
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 20px rgba(0, 0, 0, 0.1);
+}
+
