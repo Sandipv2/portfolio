@@ -20,13 +20,25 @@ function Hero() {
           </div>
 
           <div className="d-flex justify-content-center gap-3 mb-2 ">
-            <a href="https://github.com/vmshall/" className="text-white" target="_blank">
+            <a
+              href="https://github.com/vmshall/"
+              className="text-white"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faGithub} size="1x" />
             </a>
-            <a href="https://www.linkedin.com/in/vishal-sabavat/" className="text-white" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/vishal-sabavat/"
+              className="text-white"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faLinkedin} size="1x" />
             </a>
-            <a href="https://www.instagram.com/vixhal_sabavat/" className="text-white" target="_blank">
+            <a
+              href="https://www.instagram.com/vixhal_sabavat/"
+              className="text-white"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faInstagram} size="1x" />
             </a>
           </div>
@@ -47,10 +59,16 @@ function Hero() {
           </p>
 
           <div className="d-flex justify-content-center mt-4 gap-3">
-            <button className="btn btn-primary btn-lg px-4">Contact Me</button>
-            <button className="btn btn-outline-light btn-lg px-4">
-              Projects
-            </button>
+            <a href="#contact">
+              <button className="btn btn-primary btn-lg px-4">
+                Contact Me
+              </button>
+            </a>
+            <a href="#projects">
+              <button className="btn btn-outline-light btn-lg px-4">
+                Projects
+              </button>
+            </a>
           </div>
         </div>
       </div>

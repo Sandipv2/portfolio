@@ -1,20 +1,20 @@
 function Skills() {
   const hardwareSkills = [
-    { name: "Circuit Design", value: 90 },
+    { name: "Circuit Analysis", value: 90 },
     { name: "MATLAB", value: 85 },
-    { name: "Arduino/ESP32", value: 95 },
-    { name: "PCB Design", value: 80 },
-    { name: "Digital Electronics", value: 85 },
-    { name: "Signal Processing", value: 75 },
+    // { name: "Arduino", value: 95 },
+    // { name: "PCB Design", value: 80 },
+    // { name: "Digital Electronics", value: 85 },
+    // { name: "Signal Processing", value: 75 },
   ];
 
   const softwareSkills = [
-    { name: "KiCAD", value: 85 },
-    { name: "LabVIEW", value: 70 },
+    // { name: "KiCAD", value: 85 },
+    // { name: "LabVIEW", value: 70 },
     { name: "Python", value: 80 },
     { name: "C/C++", value: 85 },
     { name: "Git", value: 75 },
-    { name: "SPICE", value: 80 },
+    // { name: "SPICE", value: 80 },
   ];
 
   function renderSkill(skills) {
@@ -40,11 +40,11 @@ function Skills() {
       <div className="row g-5">
         <div className="col-md-6">
           <h4>Hardware & Electronics</h4>
-          {renderSkill(softwareSkills)}
+          {renderSkill(hardwareSkills)}
         </div>
         <div className="col-md-6">
         <h4>Software & Tools</h4>
-          {renderSkill(hardwareSkills)}
+          {renderSkill(softwareSkills)}
         </div>
       </div>
     </section>

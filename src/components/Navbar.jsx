@@ -21,13 +21,13 @@ function Navbar() {
             <a className="nav-link text-white" href="#about">
               About
             </a>
-            <a className="nav-link text-white" href="#">
+            <a className="nav-link text-white" href="#projects">
               Projects
             </a>
             <a className="nav-link text-white" href="#skills">
               Skills
             </a>
-            <a className="nav-link text-white" href="#">
+            <a className="nav-link text-white" href="#contact">
               Contact
             </a>
           </div>
