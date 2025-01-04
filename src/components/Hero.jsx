@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -44,7 +45,7 @@ function Hero() {
           </div>
 
           <p className="mb-1" style={{ color: "#80d0c7" }}>
-            Hello, I'm
+            v8shal19@gmail.com
           </p>
           <h1 className="fw-bold">Vishal Sabavat</h1>
           <p className="fst-italic">
@@ -59,10 +60,8 @@ function Hero() {
           </p>
 
           <div className="d-flex justify-content-center mt-4 gap-3">
-            <a href="#contact">
-              <button className="btn btn-primary btn-lg px-4">
-                Contact Me
-              </button>
+            <a href="#skills">
+              <button className="btn btn-primary btn-lg px-4">Skills</button>
             </a>
             <a href="#projects">
               <button className="btn btn-outline-light btn-lg px-4">

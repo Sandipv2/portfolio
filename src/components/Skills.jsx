@@ -1,8 +1,8 @@
 function Skills() {
   const hardwareSkills = [
-    { name: "Circuit Analysis", value: 90 },
-    { name: "MATLAB", value: 85 },
-    // { name: "Arduino", value: 95 },
+    { name: "Circuit Analysis", value: 75 },
+    { name: "MATLAB", value: 75 },
+    { name: "Arduino", value: 80 },
     // { name: "PCB Design", value: 80 },
     // { name: "Digital Electronics", value: 85 },
     // { name: "Signal Processing", value: 75 },
@@ -12,8 +12,8 @@ function Skills() {
     // { name: "KiCAD", value: 85 },
     // { name: "LabVIEW", value: 70 },
     { name: "Python", value: 80 },
-    { name: "C/C++", value: 85 },
-    { name: "Git", value: 75 },
+    { name: "C/C++", value: 70 },
+    { name: "Git", value: 70 },
     // { name: "SPICE", value: 80 },
   ];
 
@@ -35,7 +35,7 @@ function Skills() {
   }
 
   return (
-    <section className="container my-4 text-center" id="skills">
+    <section className="container my-5 text-center" id="skills">
       <h2 className="mb-5 fw-bold section-title">Skills</h2>
       <div className="row g-5">
         <div className="col-md-6">

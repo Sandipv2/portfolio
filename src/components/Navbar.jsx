@@ -27,9 +27,9 @@ function Navbar() {
             <a className="nav-link text-white" href="#skills">
               Skills
             </a>
-            <a className="nav-link text-white" href="#contact">
+            {/* <a className="nav-link text-white" href="#contact">
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
